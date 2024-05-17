@@ -1,0 +1,82 @@
+/* Estilos personalizados */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  /* Estilos para el título principal */
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Estilos para la tarjeta de producto */
+  .card {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Estilos para la imagen del producto */
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Estilos para el cuerpo de la tarjeta */
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Estilos para el título del producto */
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el precio del producto */
+  .card-text {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el botón de compra */
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Añade más estilos personalizados según sea necesario */
+
+  /* Estilos para el footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .footer span {
+    font-size: 14px;
+  }
+  
